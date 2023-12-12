@@ -8,3 +8,6 @@ apt install -y protobuf-compiler
 
 ## para entender os contratos protoc e transformar no arquivo go:
 protoc --go_out=. --go-grpc_out=. proto/course_category.proto
+
+## grpc client
+https://github.com/ktr0731/evans
