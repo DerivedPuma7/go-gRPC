@@ -8,6 +8,8 @@ require (
 	google.golang.org/protobuf v1.31.0
 )
 
+require google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.3.0 // indirect
+
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/mattn/go-sqlite3 v1.14.18
